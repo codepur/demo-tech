@@ -1,0 +1,40 @@
+.mainContainer {
+    background: url("/images/company-type-img.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.subContainer{
+    backdrop-filter: contrast(.8);
+    background-attachment: fixed;
+    background-position: center;
+}
+.heading,.descriptionHeading,.packageHeading {
+    font-size: 30px;
+}
+.packageContainer{
+    background: linear-gradient(to right, #07426a, #4890c1);
+}
+.card{
+    margin: 53px 0;
+    background: white;
+    border-radius: 19px;
+}
+.plan,.planPrice{
+    font-size: 26px;
+}
+.borderBottom{
+    border:1px dotted lightgray;
+}
+.cardButton{
+    border-radius:20px;
+}
+.cardBox{
+    border:1px solid lightgrey;
+}
+.advHeading,.documentHeading{
+    font-size:18px;
+}
+.documentCard{
+    box-shadow:0 0px 30px rgba(0,0,0,0.09);
+}
